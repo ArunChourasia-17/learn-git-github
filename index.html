@@ -72,3 +72,19 @@ it goes to 'master' branch (by default).
 *7. git push -u origin "Branch Name-(by default)- master" // it is used to push the code from your local working folder to your active repo. (remote) branch along with changes that you have made in a folder all are at one place. -->
 
 <!-------------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- Q5: How to delete unnecessary commit of remote (server) repo. through your local terminal ? 
+
+1. Open 'git bash' or 'vs code terminal', then go to folder path where files are kept inside it.
+*You can change the path using : 'cd' command (used to change directory) in your terminal or bash.* Now, 
+
+*4 steps process to push your project on github in your repository(repo.) that you have created earlier.*
+=> 'main' is (by default) branch in github, but when you push any folder using git command or git bash or terminal
+it goes to 'master' branch (by default).
+=> 'Start the process :'
+*1. git init // initialize the path of your project to your active repo. branch or it is used to track the files.
+*2. git status // it show 'local' working branch of your repo. & what changes you have made in local repo.
+*3. git reset --soft HEAD~1 // it delete the first commit (recent) from your repo.
+*4. git push -f // it is used to push forcefully changes to github repo.
+
+<--------------------------------------------------------------------------------------------------------------------------------------->
